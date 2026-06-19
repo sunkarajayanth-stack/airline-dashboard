@@ -1,225 +1,136 @@
 # ✈️ SkyRoster - Smart Airline Crew Management System
 
-SkyRoster is a modern web-based Airline Crew Management System designed to efficiently manage crew scheduling, duty assignments, leave requests, compliance monitoring, and operational workflows for airlines.
+## 📖 Overview
 
-The project provides an intuitive dashboard that helps administrators optimize crew allocation while ensuring regulatory compliance and reducing scheduling conflicts.
+SkyRoster is a modern web-based Airline Crew Management System designed to streamline crew scheduling, duty tracking, leave management, and compliance monitoring.
 
----
-
-## 📌 Project Overview
-
-Managing airline crew operations manually is time-consuming and error-prone. SkyRoster automates crew scheduling and management by providing a centralized platform for crew administrators.
-
-The system helps airlines:
-
-- Manage crew information
-- Assign flights efficiently
-- Track duty hours
-- Process leave requests
-- Detect scheduling conflicts
-- Ensure aviation compliance
-- Monitor crew availability in real time
-
----
-
-## 🚀 Features
-
-### 📅 Roster View
-- Displays crew schedules in an organized manner
-- View daily, weekly, or monthly assignments
-- Easy monitoring of crew availability
-
-### ⏱️ Duty Hour Tracker
-- Tracks crew working hours
-- Prevents exceeding legal flight limits
-- Improves crew safety and compliance
-
-### 🏖️ Leave Management
-- Crew members can submit leave requests
-- Administrators can approve or reject requests
-- Automatic schedule adjustments
-
-### ⚠️ Conflict Detection
-- Identifies overlapping schedules
-- Prevents duplicate assignments
-- Sends conflict alerts
-
-### 🛫 Crew Assignment
-- Assign crew members to flights
-- Drag-and-drop scheduling support
-- Optimized assignment workflow
-
-### ✅ Compliance Monitoring
-- Ensures aviation regulations are followed
-- Checks duty hour limitations
-- Maintains operational safety standards
-
-### 👤 Crew Profiles
-- Stores crew member information
-- Displays qualifications and availability
-- Tracks assignment history
-
----
-
-## 🏗️ System Architecture
-
-The application follows a modern component-based frontend architecture.
-
-### Technologies Used
-
-### Frontend
-- React.js
-- TypeScript
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-
-### Concepts Implemented
-
-- Declarative UI
-- Virtual DOM
-- Component-Driven Architecture
-- Unidirectional Data Flow
-- Reusable Components
-- React Hooks
-- Controlled Forms
-- Modular Design
-- Functional Programming Principles
-- Promise-Based Asynchronous Programming
-
----
-
-## 📂 Project Structure
-
-```text
-SkyRoster/
-
-src/
-
-├── components/
-│   ├── Navbar
-│   ├── Sidebar
-│   ├── Dashboard
-│   ├── DutyTracker
-│   ├── LeaveRequests
-│   ├── ConflictAlerts
-│   └── CrewProfile
-
-├── pages/
-│   ├── Home
-│   ├── Schedule
-│   ├── Compliance
-│   └── Settings
-
-├── services/
-│   └── api.js
-
-├── hooks/
-
-├── utils/
-
-├── assets/
-
-└── App.jsx
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/SkyRoster.git
-```
-
-### Navigate to project folder
-
-```bash
-cd SkyRoster
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run dev
-```
-
-or
-
-```bash
-npm start
-```
-
-depending on your setup.
+The system provides a centralized dashboard that helps airline administrators efficiently manage crew operations, reduce scheduling conflicts, and improve overall operational efficiency.
 
 ---
 
 ## 🎯 Objectives
 
 - Automate airline crew scheduling
-- Minimize scheduling conflicts
-- Improve operational efficiency
+- Reduce manual workload
+- Prevent scheduling conflicts
+- Track crew duty hours
+- Manage leave requests
 - Ensure aviation compliance
-- Simplify leave management
-- Enhance crew resource utilization
+- Improve resource utilization
 
 ---
 
-## 💡 Advantages
+## 🚀 Key Features
+
+### 📅 Roster View
+View and manage crew schedules in an organized format.
+
+### ⏱️ Duty Hour Tracker
+Monitor crew working hours and prevent exceeding duty limits.
+
+### 🏖️ Leave Requests
+Allow crew members to submit and manage leave applications.
+
+### ⚠️ Conflict Alerts
+Detect overlapping schedules and assignment conflicts.
+
+### 🛫 Crew Assignment
+Assign crew members to flights efficiently.
+
+### ✅ Compliance Check
+Ensure all crew schedules follow aviation regulations.
+
+### 👤 Crew Profiles
+Store and manage crew information, qualifications, and availability.
+
+---
+
+## 🏗️ Technologies Used
+
+### Frontend
+
+- React.js
+- TypeScript
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 🧠 Front-End Engineering Concepts Implemented
+
+### CO1: Foundations of Front-End Engineering
+
+- Declarative UI with React
+- Virtual DOM
+- Component-Driven Architecture
+- Unidirectional Data Flow
+
+### CO2: JavaScript & TypeScript Engineering
+
+- ES6+ Features
+- Functional Programming Principles
+- Modular Design
+- Promise-Based Asynchronous Programming
+- State Management via Closures
+
+### CO3: React Component Model
+
+- Reusable Components
+- Props as Inputs
+- State Management
+- React Hooks
+- Component Composition
+- Controlled Forms
+
+---
+
+## 📂 Project Modules
+
+- Dashboard
+- Crew Scheduling
+- Duty Hour Tracker
+- Leave Management
+- Conflict Detection
+- Compliance Monitoring
+- Crew Profiles
+
+---
+
+## 🌟 Advantages
 
 - User-friendly interface
-- Highly scalable architecture
+- Scalable architecture
+- Modular design
 - Easy maintenance
-- Reduced manual workload
-- Faster scheduling process
-- Improved reliability
-- Better data organization
+- Reduced scheduling errors
+- Improved operational efficiency
 
 ---
 
-## 🔒 Future Enhancements
+## 🔮 Future Enhancements
 
 - AI-based crew optimization
-- Flight delay prediction
-- Mobile application support
 - Real-time notifications
 - Analytics dashboard
-- Integration with airline databases
-- Role-based authentication
+- Mobile application support
 - Cloud deployment
+- Authentication and role-based access
 
 ---
 
-## 🎓 Educational Concepts Demonstrated
+## 📌 Project Information
 
-This project demonstrates:
+**Project Name:** SkyRoster
 
-- Front-End Engineering
-- React Framework Design
-- Component-Based Architecture
-- State Management
-- Modern JavaScript (ES6+)
-- TypeScript Engineering
-- Asynchronous Programming
-- Software Modularity
+**Category:** Airline Crew Management System
+
+**Type:** Front-End Engineering Academic Project
+
+**Purpose:** To automate and optimize airline crew operations through a modern, scalable, and maintainable web application.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed For
 
-Developed as an academic project for learning modern Front-End Engineering and Airline Operations Management.
-
-**Project:** SkyRoster
-
----
-
-## 📜 License
-
-This project is developed for educational purposes.
+Academic learning and demonstration of modern Front-End Engineering principles using React and TypeScript.
