@@ -55,24 +55,43 @@ Store and manage crew information, qualifications, and availability.
 - HTML5
 - CSS3
 
+### Build Tools
+
+- Vite
+- Webpack
+
+### Deployment Platforms
+
+- Netlify
+- Vercel
+
+### Development Tools
+
+- ESLint
+- Prettier
+- Lighthouse
 ---
 
 ## 🧠 Front-End Engineering Concepts Implemented
 
-### CO1: Foundations of Front-End Engineering
+### CO1: Foundations of Front-End Engineering & Framework Design
 
 - Declarative UI with React
 - Virtual DOM
 - Component-Driven Architecture
 - Unidirectional Data Flow
 
+---
+
 ### CO2: JavaScript & TypeScript Engineering
 
 - ES6+ Features
+- State Management via Closures
 - Functional Programming Principles
 - Modular Design
 - Promise-Based Asynchronous Programming
-- State Management via Closures
+
+---
 
 ### CO3: React Component Model
 
@@ -82,6 +101,37 @@ Store and manage crew information, qualifications, and availability.
 - React Hooks
 - Component Composition
 - Controlled Forms
+
+---
+
+### CO4: State Architecture & API Integration
+
+- Structured State Management
+- API-Ready Service Layers
+- Data Integrity & Consistency
+- Scalable Backend Integration
+
+---
+
+### CO5: Routing, Forms, Accessibility & Performance
+
+- SPA (Single Page Application) Routing
+- Controlled Forms with Real-Time Validation
+- Accessibility-First Design
+- Performance Optimization Techniques
+  - Lazy Loading
+  - Memoization
+  - Efficient Rendering
+
+---
+
+### CO6: Build Systems, Testing & Deployment
+
+- Modern Build Systems (Vite/Webpack)
+- Code Quality & Standards
+- Deployment-Ready Architecture
+- Unit & Integration Testing
+- Performance Monitoring (Lighthouse)
 
 ---
 
